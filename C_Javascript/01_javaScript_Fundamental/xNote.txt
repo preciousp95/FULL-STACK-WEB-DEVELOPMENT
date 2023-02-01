@@ -1,0 +1,28 @@
+1. list all the data types you know
+2. what is a virable?
+3. Declare 7 different variables and assign any of the data types listed above
+4. To you what is a string?
+5. Output to thr browser strings and numbers
+6. what is string concataion.
+7. use the string template literal
+8. list all thr operators you know
+
+
+//Data types
+//1. boolen
+//2. charcter
+//3. integer
+//4. void
+//5. null
+//6. Arrey
+//7. Number
+
+
+what is a virable?
+a virable is a nnamed unit of data that is assigned a value. if the value is modified the name doe not change.
+
+
+
+A function is a block of codes thst perform an actions!
+code is ===var A=10--a statement/experiment
+

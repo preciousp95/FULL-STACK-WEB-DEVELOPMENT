@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            background-color: green;
+            /* flex-wrap: wrap; */
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+
+        }
+        .items{
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
+        }
+        /* 
+        .items1{order: 3}
+        .items2{order: 0}
+        .items3{order: 1}
+        .items4{order: 2} */
+
+        /* flex-grow
+        .items1{flex-grow: 2;}
+        .items2{flex-grow: 1;}
+        .items3{flex-grow: 1;}
+        .items4{flex-grow: 1;} */
+
+        /* .items2 {flex-shrink: 4;} */
+
+        /* .items1{flex-basis: 200px;} */
+
+        .items1{align-self: flex-start;}
+        .items4{align-self: flex-end;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items items1">Childs1</div>
+        <div class="items items2">Childs2</div>
+        <div class="items items3">Childs3</div>
+        <div class="items items4">Childs4</div>
+        <!-- <div class="items">Childs5</div>
+        <div class="items">Childs6</div>
+        <div class="items">Childs7</div> -->
+    </div>
+</body>
+</html>

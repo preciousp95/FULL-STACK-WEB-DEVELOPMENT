@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    background-color: purple;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+}
+
+.container2 {
+    display: flex;
+}
+.whitebg{
+    background-color: white;
+    height: 20px;
+    width: 90%;
+}
+.redbg{
+    background-color: red;
+    height: 20px;
+    width: 20%;
+    text-align: center;
+}
+div a {
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: rgb(102, 17, 102);
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    color: white;
+    align-items: center;
+}
+.logo{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+#acc{
+    background-color: red;
+    padding: 9px;
+    border: 5px;
+}
+li {
+    display: inline;
+    margin-right: 30px;
+}
+header {
+    background-color: purple;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+    color: white; 
+    background-image: url(light.jpg)
+}
