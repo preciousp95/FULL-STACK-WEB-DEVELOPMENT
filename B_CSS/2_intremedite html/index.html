@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+
+        li>a{
+            background-color: gray;
+        }
+        p a {
+            background-color: purple;
+        }
+        h1+p {
+            background-color: aquamarine;
+        }
+        .italic {
+            font-style: italic;
+            color: red;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        p[class~=".bold"]{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>other types of css selector</h1>
+    <!-- short key to comment is ctrl / -->
+    <!-- child selector -->
+    <h3>Unordered List items below:search<a href="https://www.google.com">Google</a></h3>
+
+    <ul>
+        <li>Bread, buy bread at: <a href="https://www.google.com">Kilibread</a></li>
+        <li>Butter</li>
+        <li>Tea</li>
+    </ul>
+    <a href="https://www.google.com">Google</a>
+
+    <p>the descendant selector:
+        <span>the span element is a direct child to the p element <a href="https://google.com">this is a descendant of a p element</a></span>
+    
+    <!-- Adjacent Selector -->
+    <h1>A direct sibling to the paragraph1</h1>
+    <p>Paragraph1 directly next to h1 tag</p>
+    <p>Paragraph2 direct next to h1 tag</p>
+
+    <!-- Attribute Selector -->
+    <div>
+        <p class="italic bold underline">this paragraph tag contains multiple classes in its class attribute</p>
+    </div>
+</body>
+</html>
